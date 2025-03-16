@@ -23,14 +23,14 @@ export const menuOptions: MenuOptions[] = [
     link: "/menu",
   },
   {
-    title: "Visitanos",
+    title: "Contáctanos",
     icon: "📍",
-    link: "/",
+    link: "/contact",
   },
   {
     title: "Siguenos",
     icon: "📲",
-    link: "/",
+    link: "/socialmedia",
   },
 ];
 
