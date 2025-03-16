@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,7 +25,21 @@
 }
 
 body {
-  background: var(--background);
+  background: url("https://wallpapers.com/images/high/high-resolution-wood-background-dgxmqz3xfiafclic.webp");
+  background-size: cover; /* La imagen cubrirá toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Fija el fondo al hacer scroll */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image-wood {
+  background: url("https://wallpapers.com/images/high/high-resolution-wood-background-dgxmqz3xfiafclic.webp");
+  background-size: cover; /* La imagen cubrirá toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Fija el fondo al hacer scroll */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
