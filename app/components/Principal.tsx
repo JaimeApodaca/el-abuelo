@@ -54,7 +54,7 @@ export const Principal = () => {
               Ver Menú 🍽️
             </button>
           </Link>
-          <Link href="https://goo.gl/maps/tuUbicacion">
+          <Link href="/contact">
             <button className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-2xl shadow-lg transition-all">
               Contáctanos 📍
             </button>

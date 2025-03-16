@@ -24,13 +24,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
         />
       </Link>
       <div className="p-5 flex-1 flex flex-col">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white ">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
           {title}
         </h5>
 
-        <p className="mb-3 font-normal text-white dark:text-gray-400 flex-1">
-          {description}
-        </p>
+        <p className="mb-3 font-normal text-white flex-1">{description}</p>
         <Link
           href={"/menu"}
           className="inline-flex items-center justify-center px-3 py-2 font-medium text-center text-white border rounded-lg"

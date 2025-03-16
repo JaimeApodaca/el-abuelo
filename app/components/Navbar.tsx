@@ -49,6 +49,22 @@ export default function Navbar() {
     >
       <div className="container px-6 py-4 mx-auto ">
         <div className="lg:flex lg:items-center lg:justify-between">
+          {/* Menú en Desktop (visible siempre en pantalla grande) */}
+          <div className="hidden lg:flex lg:items-center lg:space-x-8">
+            {menuOptions.map(({ title, icon, link }) => (
+              <Link
+                key={title}
+                href={link}
+                onClick={handleLinkClick}
+                className="text-white text-xl hover:bg-gray-700 px-4 py-2 rounded-md"
+              >
+                <div className="flex items-center space-x-2">
+                  <span className="text-2xl">{icon}</span>
+                  <span>{title}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
           <div className="flex items-center justify-between">
             {/* Botón del menú móvil */}
             <div className="flex lg:hidden">
