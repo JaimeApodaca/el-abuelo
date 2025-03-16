@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   description,
 }) => {
   return (
-    <div className="max-w-sm bg-black/70 border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+    <div className="max-w-sm bg-black/70 border border-gray-200 rounded-lg shadow-sm flex flex-col">
       <Link href={"/menu"} className="relative w-full h-[200px]">
         <Image
           src={imageUrl}
